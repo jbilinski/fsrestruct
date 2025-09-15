@@ -2,12 +2,12 @@
 
 ## Description
 
-A bash script to export the structure of a Linux filesystem, including directories, files, ownerships, permissions, and symbolic links, into a script that can recreate the same structure elsewhere.
+A bash script to export the structure of a Linux filesystem, including directories, (empty)files, ownerships, permissions, and symbolic links, into a script that can recreate the same structure elsewhere.
 
 ## Usage
 
 ```shell
-bash expfsstruct.sh <source_directory>
+bash expfsstruct.sh <source_directory> [--with-files]
 ```
 
 ## Purpose
