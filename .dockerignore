@@ -1,0 +1,30 @@
+# Ignore recreate_fs.sh output script
+recreate_fs.sh
+
+# Common filesystem artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+
+# Editor and OS files
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# System files
+lost+found/
+
+# Other common artifacts
+node_modules/
+__pycache__/
+.env
+.env.*
+
+# Backup files
+*.old
+*.orig
